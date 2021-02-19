@@ -1,142 +1,284 @@
 TIME      PID     PREVIOUS    CURRENT
+
   5       1111        NEW      READY
+
   5       1111      READY    RUNNING
+
  10       2222        NEW      READY
- 10          7        NEW      READY
+
+ 11          7        NEW      READY
+
  15       3333        NEW      READY
+
  25       4444        NEW      READY
- 26       1111    RUNNING    WAITING
+
+ 25       1111    RUNNING    WAITING
+
  26       2222      READY    RUNNING
- 36       1111    WAITING      READY
+
+ 35       1111    WAITING      READY
+
  45       5555        NEW      READY
- 47       2222    RUNNING    WAITING
+
+ 46       2222    RUNNING    WAITING
+
  47          7      READY    RUNNING
- 50        438        NEW      READY
- 57       2222    WAITING      READY
- 68          7    RUNNING    WAITING
+
+ 50        666        NEW      READY
+
+ 56       2222    WAITING      READY
+
+ 67          7    RUNNING    WAITING
+
  68       3333      READY    RUNNING
- 78          7    WAITING      READY
- 79       3333    RUNNING    WAITING
+
+ 77          7    WAITING      READY
+
+ 78       3333    RUNNING    WAITING
+
  79       4444      READY    RUNNING
+
  90       8888        NEW      READY
- 94       3333    WAITING      READY
-100       4444    RUNNING    WAITING
-100       5555      READY    RUNNING
+
+ 93       3333    WAITING      READY
+
+ 99       4444    RUNNING    WAITING
+
 100         99        NEW      READY
-105       4444    WAITING      READY
-126       5555    RUNNING    WAITING
-126        438      READY    RUNNING
-147        438    RUNNING    WAITING
-147       8888      READY    RUNNING
-151       5555    WAITING      READY
-158       8888    RUNNING    WAITING
-158         99      READY    RUNNING
-166        438    WAITING      READY
-184         99    RUNNING    WAITING
-185       1111      READY    RUNNING
-191       8888    WAITING      READY
-201         99    WAITING      READY
-205       1111    RUNNING    WAITING
-205       2222      READY    RUNNING
-215       1111    WAITING      READY
-225       2222    RUNNING    WAITING
-225          7      READY    RUNNING
-235       2222    WAITING      READY
-245          7    RUNNING    WAITING
-245       3333      READY    RUNNING
-255          7    WAITING      READY
-255       3333    RUNNING    WAITING
-255       4444      READY    RUNNING
-270       3333    WAITING      READY
-275       4444    RUNNING    WAITING
-275       5555      READY    RUNNING
-280       4444    WAITING      READY
-300       5555    RUNNING    WAITING
-300        438      READY    RUNNING
-320        438    RUNNING    WAITING
-320       8888      READY    RUNNING
-325       5555    WAITING      READY
-330       8888    RUNNING    WAITING
-330         99      READY    RUNNING
-340        438    WAITING      READY
-355         99    RUNNING TERMINATED
-356       1111      READY    RUNNING
-365       8888    WAITING      READY
-366       1111    RUNNING TERMINATED
-366       2222      READY    RUNNING
-376       2222    RUNNING TERMINATED
-376          7      READY    RUNNING
-386          7    RUNNING TERMINATED
-386       3333      READY    RUNNING
-396       3333    RUNNING    WAITING
-396       4444      READY    RUNNING
-411       3333    WAITING      READY
-416       4444    RUNNING    WAITING
-416       5555      READY    RUNNING
-421       4444    WAITING      READY
-441       5555    RUNNING    WAITING
-441        438      READY    RUNNING
-461        438    RUNNING    WAITING
-461       8888      READY    RUNNING
-466       5555    WAITING      READY
-471       8888    RUNNING    WAITING
-472       3333      READY    RUNNING
-481        438    WAITING      READY
-482       3333    RUNNING    WAITING
-482       4444      READY    RUNNING
-502       4444    RUNNING    WAITING
-502       5555      READY    RUNNING
-506       8888    WAITING      READY
-522       3333    WAITING      READY
-527       4444    WAITING      READY
-527       5555    RUNNING    WAITING
-527        438      READY    RUNNING
-547        438    RUNNING    WAITING
-547       8888      READY    RUNNING
-552       5555    WAITING      READY
-557       8888    RUNNING    WAITING
-558       3333      READY    RUNNING
-567        438    WAITING      READY
-568       3333    RUNNING    WAITING
-568       4444      READY    RUNNING
-588       4444    RUNNING    WAITING
-588       5555      READY    RUNNING
-592       8888    WAITING      READY
-608       3333    WAITING      READY
-613       4444    WAITING      READY
-613       5555    RUNNING    WAITING
-613        438      READY    RUNNING
-633        438    RUNNING TERMINATED
-633       8888      READY    RUNNING
-638       5555    WAITING      READY
-638       8888    RUNNING TERMINATED
-639       3333      READY    RUNNING
-649       3333    RUNNING    WAITING
-649       4444      READY    RUNNING
-664       3333    WAITING      READY
-669       4444    RUNNING    WAITING
-669       5555      READY    RUNNING
-674       4444    WAITING      READY
-694       5555    RUNNING    WAITING
-695       3333      READY    RUNNING
-705       3333    RUNNING    WAITING
-705       4444      READY    RUNNING
-719       5555    WAITING      READY
-725       4444    RUNNING    WAITING
-725       5555      READY    RUNNING
-735       3333    WAITING      READY
-740       4444    WAITING      READY
-750       5555    RUNNING    WAITING
-751       3333      READY    RUNNING
-761       3333    RUNNING    WAITING
-761       4444      READY    RUNNING
-771       4444    RUNNING TERMINATED
-775       5555    WAITING      READY
-775       5555      READY    RUNNING
-791       3333    WAITING      READY
-800       5555    RUNNING TERMINATED
-801       3333      READY    RUNNING
-811       3333    RUNNING    WAITING
-826       3333    WAITING      READY
-826       3333      READY    RUNNING
-836       3333    RUNNING TERMINATED
+
+100       1111      READY    RUNNING
+
+104       4444    WAITING      READY
+
+120       1111    RUNNING    WAITING
+
+121       5555      READY    RUNNING
+
+130       1111    WAITING      READY
+
+146       5555    RUNNING    WAITING
+
+147        666      READY    RUNNING
+
+167        666    RUNNING    WAITING
+
+168       2222      READY    RUNNING
+
+171       5555    WAITING      READY
+
+186        666    WAITING      READY
+
+188       2222    RUNNING    WAITING
+
+189          7      READY    RUNNING
+
+198       2222    WAITING      READY
+
+209          7    RUNNING    WAITING
+
+210       8888      READY    RUNNING
+
+219          7    WAITING      READY
+
+220       8888    RUNNING    WAITING
+
+221       3333      READY    RUNNING
+
+231       3333    RUNNING    WAITING
+
+232         99      READY    RUNNING
+
+245       8888    WAITING      READY
+
+257         99    RUNNING    WAITING
+
+258       4444      READY    RUNNING
+
+260       3333    WAITING      READY
+
+261         99    WAITING      READY
+
+278       4444    RUNNING    WAITING
+
+279       1111      READY    RUNNING
+
+283       4444    WAITING      READY
+
+289       1111    RUNNING TERMINATED
+
+290       5555      READY    RUNNING
+
+315       5555    RUNNING    WAITING
+
+316        666      READY    RUNNING
+
+336        666    RUNNING    WAITING
+
+337       2222      READY    RUNNING
+
+340       5555    WAITING      READY
+
+347       2222    RUNNING TERMINATED
+
+348          7      READY    RUNNING
+
+355        666    WAITING      READY
+
+358          7    RUNNING TERMINATED
+
+359       8888      READY    RUNNING
+
+369       8888    RUNNING    WAITING
+
+370       3333      READY    RUNNING
+
+380       3333    RUNNING    WAITING
+
+381         99      READY    RUNNING
+
+394       8888    WAITING      READY
+
+406         99    RUNNING TERMINATED
+
+407       4444      READY    RUNNING
+
+409       3333    WAITING      READY
+
+427       4444    RUNNING    WAITING
+
+428       5555      READY    RUNNING
+
+432       4444    WAITING      READY
+
+453       5555    RUNNING    WAITING
+
+454        666      READY    RUNNING
+
+474        666    RUNNING    WAITING
+
+475       8888      READY    RUNNING
+
+478       5555    WAITING      READY
+
+485       8888    RUNNING    WAITING
+
+486       3333      READY    RUNNING
+
+493        666    WAITING      READY
+
+496       3333    RUNNING    WAITING
+
+497       4444      READY    RUNNING
+
+517       4444    RUNNING    WAITING
+
+518       5555      READY    RUNNING
+
+518       8888    WAITING      READY
+
+533       3333    WAITING      READY
+
+538       4444    WAITING      READY
+
+543       5555    RUNNING    WAITING
+
+544        666      READY    RUNNING
+
+564        666    RUNNING    WAITING
+
+565       8888      READY    RUNNING
+
+568       5555    WAITING      READY
+
+575       8888    RUNNING    WAITING
+
+576       3333      READY    RUNNING
+
+583        666    WAITING      READY
+
+586       3333    RUNNING    WAITING
+
+587       4444      READY    RUNNING
+
+607       4444    RUNNING    WAITING
+
+608       5555      READY    RUNNING
+
+608       8888    WAITING      READY
+
+623       3333    WAITING      READY
+
+628       4444    WAITING      READY
+
+633       5555    RUNNING    WAITING
+
+634        666      READY    RUNNING
+
+654        666    RUNNING TERMINATED
+
+655       8888      READY    RUNNING
+
+658       5555    WAITING      READY
+
+660       8888    RUNNING TERMINATED
+
+661       3333      READY    RUNNING
+
+671       3333    RUNNING    WAITING
+
+672       4444      READY    RUNNING
+
+686       3333    WAITING      READY
+
+692       4444    RUNNING    WAITING
+
+693       5555      READY    RUNNING
+
+697       4444    WAITING      READY
+
+718       5555    RUNNING    WAITING
+
+719       3333      READY    RUNNING
+
+729       3333    RUNNING    WAITING
+
+730       4444      READY    RUNNING
+
+743       5555    WAITING      READY
+
+750       4444    RUNNING    WAITING
+
+751       5555      READY    RUNNING
+
+758       3333    WAITING      READY
+
+763       4444    WAITING      READY
+
+776       5555    RUNNING    WAITING
+
+777       3333      READY    RUNNING
+
+787       3333    RUNNING    WAITING
+
+788       4444      READY    RUNNING
+
+798       4444    RUNNING TERMINATED
+
+801       5555    WAITING      READY
+
+802       5555      READY    RUNNING
+
+816       3333    WAITING      READY
+
+827       5555    RUNNING TERMINATED
+
+828       3333      READY    RUNNING
+
+838       3333    RUNNING    WAITING
+
+853       3333    WAITING      READY
+
+854       3333      READY    RUNNING
+
+864       3333    RUNNING TERMINATED
+

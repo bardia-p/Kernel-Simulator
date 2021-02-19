@@ -1,31 +1,62 @@
 TIME      PID     PREVIOUS    CURRENT
+
  10       5555        NEW      READY
+
  10       5555      READY    RUNNING
+
  12       3333        NEW      READY
+
  20       7777        NEW      READY
- 21       5555    RUNNING    WAITING
+
+ 20       5555    RUNNING    WAITING
+
  21       3333      READY    RUNNING
- 25       5555    WAITING      READY
- 32       3333    RUNNING    WAITING
+
+ 24       5555    WAITING      READY
+
+ 31       3333    RUNNING    WAITING
+
  32       7777      READY    RUNNING
- 39       7777    RUNNING TERMINATED
- 40       5555      READY    RUNNING
- 50       5555    RUNNING    WAITING
- 52       3333    WAITING      READY
+
+ 38       7777    RUNNING TERMINATED
+
+ 39       5555      READY    RUNNING
+
+ 49       5555    RUNNING    WAITING
+
+ 51       3333    WAITING      READY
+
  52       3333      READY    RUNNING
- 57       5555    WAITING      READY
+
+ 55       5555    WAITING      READY
+
  62       3333    RUNNING    WAITING
+
  63       5555      READY    RUNNING
+
  73       5555    RUNNING    WAITING
+
  82       3333    WAITING      READY
- 82       3333      READY    RUNNING
- 87       5555    WAITING      READY
- 92       3333    RUNNING    WAITING
- 93       5555      READY    RUNNING
-103       5555    RUNNING    WAITING
-112       3333    WAITING      READY
-112       3333      READY    RUNNING
+
+ 83       3333      READY    RUNNING
+
+ 86       5555    WAITING      READY
+
+ 93       3333    RUNNING    WAITING
+
+ 94       5555      READY    RUNNING
+
+104       5555    RUNNING    WAITING
+
+113       3333    WAITING      READY
+
+114       3333      READY    RUNNING
+
 117       5555    WAITING      READY
-122       3333    RUNNING TERMINATED
-123       5555      READY    RUNNING
-133       5555    RUNNING TERMINATED
+
+124       3333    RUNNING TERMINATED
+
+125       5555      READY    RUNNING
+
+135       5555    RUNNING TERMINATED
+
