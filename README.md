@@ -23,7 +23,9 @@ $ gcc kernel_simulator.c -o kernel_simulator
 ```shell
 $ ./kernel_simulator test1.txt out1.text
 ```
- 
+- Note that the testcases are located in the testcases folder and you need to make sure the file and the test file are located in the same folder. 
+
+- Some examples of the outputs are in the sample outputs folder
 ## USING THE PROGRAM
 To run the program first a testcase must be provided with a list of processes such as the following example:
 ```
