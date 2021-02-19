@@ -1,0 +1,19 @@
+TIME      PID     PREVIOUS    CURRENT
+  5       1111        NEW      READY
+  5       1111      READY    RUNNING
+ 10       2222        NEW      READY
+ 27       1111    RUNNING    WAITING
+ 27       2222      READY    RUNNING
+ 37       1111    WAITING      READY
+ 49       2222    RUNNING    WAITING
+ 50       1111      READY    RUNNING
+ 59       2222    WAITING      READY
+ 71       1111    RUNNING    WAITING
+ 71       2222      READY    RUNNING
+ 81       1111    WAITING      READY
+ 92       2222    RUNNING    WAITING
+ 93       1111      READY    RUNNING
+102       1111    RUNNING TERMINATED
+102       2222    WAITING      READY
+102       2222      READY    RUNNING
+111       2222    RUNNING TERMINATED
