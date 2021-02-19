@@ -39,25 +39,25 @@ To run the program first a testcase must be provided with a list of processes su
 
 After that the program generates an output file which looks like the following: 
 ```
-          TIME      PID     PREVIOUS    CURRENT
-            5       1111        NEW      READY
-            5       1111      READY    RUNNING
-            10       2222        NEW      READY
-            26       1111    RUNNING    WAITING
-            26       2222      READY    RUNNING
-            35       1111    WAITING      READY
-            47       2222    RUNNING    WAITING
-            48       1111      READY    RUNNING
-            56       2222    WAITING      READY
-            68       1111    RUNNING    WAITING
-            68       2222      READY    RUNNING
-            77       1111    WAITING      READY
-            88       2222    RUNNING    WAITING
-            89       1111      READY    RUNNING
-            97       2222    WAITING      READY
-            99       1111    RUNNING TERMINATED
-            99       2222      READY    RUNNING
-            109       2222    RUNNING TERMINATED
+TIME      PID     PREVIOUS    CURRENT 
+  5       1111        NEW      READY
+  5       1111      READY    RUNNING
+ 10       2222        NEW      READY
+ 26       1111    RUNNING    WAITING
+ 26       2222      READY    RUNNING
+ 35       1111    WAITING      READY
+ 47       2222    RUNNING    WAITING
+ 48       1111      READY    RUNNING
+ 56       2222    WAITING      READY
+ 68       1111    RUNNING    WAITING
+ 68       2222      READY    RUNNING
+ 77       1111    WAITING      READY
+ 88       2222    RUNNING    WAITING
+ 89       1111      READY    RUNNING
+ 97       2222    WAITING      READY
+ 99       1111    RUNNING TERMINATED
+ 99       2222      READY    RUNNING
+109       2222    RUNNING TERMINATED
 ```
 ## CREDITS
 Author: Bardia Parmoun
