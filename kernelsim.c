@@ -284,6 +284,9 @@ int main(int argc,char *argv[])
 
         clock++;
     }
+
+    fclose(inputf);
+    fclose(outputf);
     
     return 0;
 }
