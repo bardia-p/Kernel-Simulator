@@ -1,5 +1,5 @@
 
-# Matrix Multiplier Program
+# Kernel Simulator
 
 by Bardia Parmoun
 
@@ -17,11 +17,11 @@ Released on: 18/02/2021
 ## RUNNING THE PROGRAM
 1. To run the program first run the makefile to compile the executable file by typing:
 ```shell
-$ gcc kernel_simulator.c -o kernel_simulator
+$ gcc kernelsim.c -o kernelsim
 ```
 2. After that an executable with the name of kernel_simulator has been generated which can then be used with the test cases:
 ```shell
-$ ./kernel_simulator test1.txt out1.text
+$ ./kernelsim test1.txt out1.text
 ```
 - Note that the testcases are located in the testcases folder and you need to make sure the file and the test file are located in the same folder. 
 
