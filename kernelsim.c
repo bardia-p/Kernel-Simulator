@@ -25,11 +25,9 @@ typedef struct pcb {
 } pcb_t;
 
 typedef struct {
-    pcb_t *front;  // Points to the node at the head of the
-                       // queue's linked list. 
-    pcb_t *rear;   // Points to the node at the tail of the 
-                       // queue's linked list.
-    int size;          // The # of nodes in the queue's linked list. 
+    pcb_t *front;  // Points to the node at the head of the queue's linked list. 
+    pcb_t *rear;   // Points to the node at the tail of the queue's linked list.
+    int size;      // The # of nodes in the queue's linked list. 
 } queue_t;
 
 
@@ -60,6 +58,7 @@ queue_t *queue_construct(void)
     return queue;
 }
 
+/* adds an element to the end of the queue */
 void enqueue(queue_t *queue, pcb_t* p)
 {
     //assert(queue != NULL);
@@ -72,6 +71,8 @@ void enqueue(queue_t *queue, pcb_t* p)
     queue->rear = p;
     queue->size += 1;
 }
+
+/* removes an element from the front of the queue */
 pcb_t* dequeue(queue_t *queue)
 {
     // assert(queue != NULL);
@@ -87,11 +88,9 @@ pcb_t* dequeue(queue_t *queue)
     process[8]= queue->front->oldState;
     process[9]= queue->front->currentState;
 
-    //printf("%d\n",process->pid);
     pcb_t *node_to_delete = queue->front;
     queue->front = queue->front->next;
-    //free(node_to_delete);
-
+    
     if (queue->front == NULL) {
         queue->rear = NULL;
     }
@@ -103,9 +102,7 @@ pcb_t* dequeue(queue_t *queue)
     return node_deleted;
 }
 
-/*
-Loads the values of the test file into an array of lines
-*/
+/* Loads the values of the test file into an array of lines */
 int readFile (FILE* inputf, char file[NUMLINES][LINESIZE]){
     int i =0;
     
@@ -118,9 +115,7 @@ int readFile (FILE* inputf, char file[NUMLINES][LINESIZE]){
     return i;
 }
 
-/* 
-Loads the values into the array of line to an array of processes
-*/
+/* Loads the values into the array of line to an array of processes */
 void initializeProcesses(int processes[][10], char file[NUMLINES][LINESIZE], int numCommands){
     printf("number of commands %d\n", numCommands);
 
@@ -136,6 +131,7 @@ void initializeProcesses(int processes[][10], char file[NUMLINES][LINESIZE], int
     }
 }
 
+/* adds all the processes from the array to the new queue */
 void addProcessestoNew(queue_t* new_queue, int processes[][10], char file[NUMLINES][LINESIZE], int numCommands){
     for (int i=0; i<numCommands; i++)
     {
@@ -145,9 +141,7 @@ void addProcessestoNew(queue_t* new_queue, int processes[][10], char file[NUMLIN
     }
 }
 
-/* 
-Sorts the processes based on the time they arrive at
-*/
+/* Sorts the processes based on the time they arrive at */
 void sortProcesses(int processes[][10], int numCommands){
     for (int i=0; i<numCommands-1; i++)
     {
@@ -157,14 +151,13 @@ void sortProcesses(int processes[][10], int numCommands){
                     int temp = processes[i][k];
                     processes[i][k] = processes[j][k];
                     processes[j][k] = temp;
-                }
-                
+                }     
             }
         }
     }
 }
 
-/*Printing the current state of the processes and saving it in a file*/
+/* Printing the current state of the processes and saving it in a file */
 void displayOutput(int clock, int pid, char state1[], char state2[], FILE* outputf){
     printf("%3d %10d %10s %10s\n",clock,pid,state1, state2);
     fprintf(outputf, "%3d %10d %10s %10s\n\n",clock,pid,state1, state2);   
