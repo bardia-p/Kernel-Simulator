@@ -7,7 +7,7 @@ Released on: 18/02/2021
 
 ## DESCRIPTION
 - This program is used to simulate the behaviour of a kernel.
-- It takes a list of processes and following the behaviour that is specificied in the following state diagram
+- It takes a list of processes and follows the behaviour that is specificied in the following state diagram
 <p align="center">
 <img src="images/statediagrams.JPG" />
 </p>
@@ -19,7 +19,7 @@ Released on: 18/02/2021
 ```shell
 $ gcc kernelsim.c -o kernelsim
 ```
-2. After that an executable with the name of kernel_simulator has been generated which can then be used with the test cases:
+2. After that an executable with the name of kernelsim has been generated which can then be used with the test cases:
 ```shell
 $ ./kernelsim test1.txt out1.text
 ```
@@ -34,8 +34,9 @@ To run the program first a testcase must be provided with a list of processes su
 ```
 - First column: the process id
 - Second column: the arrival time of the process
-- Third column: the I/O frequency
-- Fourth column: the I/O duration
+- Third column: the total time that the process takes to run
+- Fourth column: the I/O frequency
+- Fifrth column: the I/O duration
 
 After that the program generates an output file which looks like the following: 
 ```
